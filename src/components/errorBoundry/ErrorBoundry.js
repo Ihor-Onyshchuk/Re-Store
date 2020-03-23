@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ErrorIndicator from "../ErrorIndicator/ErrorIndicator";
+import ErrorIndicator from "../errorIndicator/ErrorIndicator";
 
 export default class ErrorBoudry extends Component {
   state = {
