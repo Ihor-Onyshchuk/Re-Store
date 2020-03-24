@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ErrorIndicator from "../errorIndicator/ErrorIndicator";
 
-export default class ErrorBoudry extends Component {
+export default class ErrorBoundry extends Component {
   state = {
     hasError: false
   };
@@ -13,7 +13,7 @@ export default class ErrorBoudry extends Component {
   }
 
   render() {
-    if (hasError) {
+    if (this.hasError) {
       return <ErrorIndicator />;
     }
 
