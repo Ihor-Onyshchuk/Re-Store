@@ -45,7 +45,6 @@ const ShoppingCartTable = ({
       </tr>
     );
   };
-
   return (
     <div className="shoppingCartTable">
       <h2>Your Order</h2>
@@ -61,7 +60,6 @@ const ShoppingCartTable = ({
         </thead>
         <tbody>{items.map(renderRow)}</tbody>
       </table>
-
       <div className="total">Total: &#36;{total}</div>
     </div>
   );
