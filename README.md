@@ -1,5 +1,4 @@
-
- 
+Simple React-Redux app
  
 You can look at demo [here](https://ihor-onyshchuk.github.io/Re-Store/)
 ---
